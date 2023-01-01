@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@day-book/day-book-api-lib": ["libs/day-book-api-lib/src/index.ts"],
+      "@day-book/day-book-ui-lib": ["libs/day-book-ui-lib/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
